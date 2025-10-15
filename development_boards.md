@@ -1,7 +1,22 @@
 ## **iCE40HX1K-EVB** (**15€**): low-cost, open-source FPGA development board (*designed with Verilog)
 
-![iCE40HX1K-EVB-1.jpg](https://trello.com/1/cards/68ee2a762df7250552733b60/attachments/68ef5ab855b55de06151acf4/download/iCE40HX1K-EVB-1.jpg)
+![](https://www.olimex.com/wiki/images/e/ee/ICE40HX1K-EVB.jpg)
 
+### Features
+- iCE40HX1K-VQ100 FPGA 1280 Logic cells, 64 K embedded RAM bits
+- 512KB SRAM organized as 256Kx16bit 10ns
+- 2MB Serial Flash
+- 2 user status LEDs
+- Programming successful status LED
+- 2 user buttons
+- Reset button
+- Power jack for 5V DC external power supply
+- PGM connector (all signals at PGM1 @ 3.3V DC)
+- 34 pin connector bus
+- 100 Mhz oscillator
+- Power supply DCDC regulators
+- Power supply status LED
+- Dimentions: 50x50mm ~ (2x2)"
 
 ### Available resource
 
@@ -25,7 +40,7 @@
 
 ### Features:
 
-![1.png](https://trello.com/1/cards/68ee2a762df7250552733b60/attachments/68ef5b3ae793f774cabd4d2d/download/1.png)
+![](https://files.seeedstudio.com/products/114992325/1.png)
 
 - FPGA Development Board based on GOWIN GW1N-UV4LQ144
 - Wide range of ports/peripherals for expandability

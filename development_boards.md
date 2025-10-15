@@ -1,3 +1,61 @@
+## **iCE40HX1K-EVB** (**15€**): low-cost, open-source FPGA development board (*designed with Verilog)
+
+![iCE40HX1K-EVB-1.jpg](https://trello.com/1/cards/68ee2a762df7250552733b60/attachments/68ef5ab855b55de06151acf4/download/iCE40HX1K-EVB-1.jpg)
+
+
+### Available resource
+
+- [iCE40HX1K-EVB wiki page](https://www.olimex.com/wiki/ICE40HX1K-EVB "‌")
+- [Lattice iCE40 product page](http://www.latticesemi.com/Products/FPGAandCPLD/iCE40.aspx "‌")
+- [Getting started under Linux tutorial](https://www.olimex.com/wiki/ICE40HX1K-EVB#Get_started_under_Linux "‌")
+- [Getting started under Windows tutorial](https://github.com/OLIMEX/iCE40HX1K-EVB/blob/master/windows/icecube2/HowTo%20iCE40%20under%20Windows.pdf "‌")
+- [iCE40HX1K-EVB European Declaration of Conformity](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/resources/EU-DOC-iCE40HX1K-EVB.pdf "‌")
+
+[https://github.com/OLIMEX/iCE40HX1K-EVB](https://github.com/OLIMEX/iCE40HX1K-EVB "smartCard-inline")
+
+### Projects
+
+[https://olimex.wordpress.com/2016/07/12/hello-world-with-verilog-on-ice40hx1k-evb-with-open-source-tool-icestorm/](https://olimex.wordpress.com/2016/07/12/hello-world-with-verilog-on-ice40hx1k-evb-with-open-source-tool-icestorm/ "smartCard-inline")
+
+‌
+
+---
+
+## \*\*Gowin \*\*[**RUNBER FPGA**](https://www.seeedstudio.com/Gowin-RUNBER-Development-Board-p-4779.html "‌") (**25€**): Development board adopts GOWIN GW1N-UV4LQ144 solution.
+
+### Features:
+
+![1.png](https://trello.com/1/cards/68ee2a762df7250552733b60/attachments/68ef5b3ae793f774cabd4d2d/download/1.png)
+
+- FPGA Development Board based on GOWIN GW1N-UV4LQ144
+- Wide range of ports/peripherals for expandability
+- Easily connect to PC with the help of USB-to-JTAG module
+- Can run on low voltage (3.3V)
+- Built-in oscillator with 12MHz frequency
+- Numeric display for status display
+- Eight monochrome LEDs for IO control and power indication
+- RGB LEDs for IO control
+- Integrated DIP switch and soft-touch keys for status control
+- 2 set of 2.54mm pin headers (20 pins) for expandability
+
+### Available resource
+
+‌[Hardware Instructions](https://files.seeedstudio.com/products/114992325/RUNBER_Development_Board_Hardware_Instructions_en.pdf "‌")
+[Instructions for Experiments](https://files.seeedstudio.com/products/114992325/Runber_Development_Board_Instructions_for_Experiments.pdf "‌")
+[Software User Guide](https://files.seeedstudio.com/products/114992325/Gowin_device&Software_User_Guide.zip "‌")
+[Source Code](https://files.seeedstudio.com/products/114992325/Gowin_RUNBER_BOARD_source_code.zip "‌")
+[Schematics](https://files.seeedstudio.com/products/114992325/Runber_Development_Board_Schematics.pdf "‌")
+
+### Example project:
+
+[https://files.seeedstudio.com/products/114992325/Runber\_Development\_Board\_Instructions\_for_Experiments.pdf](https://files.seeedstudio.com/products/114992325/Runber_Development_Board_Instructions_for_Experiments.pdf "‌")
+
+### Distributor:
+
+[https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/114992325/13635854](https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/114992325/13635854 "smartCard-inline")
+
+---
+
 ## [**Basys 3**](https://digilent.com/shop/basys-3-amd-artix-7-fpga-trainer-board-recommended-for-introductory-users/ "‌") (**$165**): best in-the-market, entry-level FPGA with a large number of designs to be completed without the need for any additional hardware.
 
 ![](https://cdn11.bigcommerce.com/s-7gavg/images/stencil/1280x1280/products/106/6259/Basys3-Rev.C-top-1000__75348.1730220608.png)

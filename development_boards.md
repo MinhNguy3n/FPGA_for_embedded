@@ -80,7 +80,7 @@
 
 “Designers can exploit the benefits of programmable logic and micro-processors to build more capable and exciting electronic systems”
 
-![01\_PYNQ-Z2\_S.jpg](https://www.amd.com/content/dam/amd/en/images/products/boards/2410750-zynq-xc7z020-board-product.jpg)
+![](https://www.amd.com/content/dam/amd/en/images/products/boards/2410750-zynq-xc7z020-board-product.jpg)
 
 ### Features:
 

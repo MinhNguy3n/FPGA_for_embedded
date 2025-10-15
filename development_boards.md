@@ -1,4 +1,53 @@
-## **iCE40HX1K-EVB** (**15€**): low-cost, open-source FPGA development board (*designed with Verilog)
+## [**SLG7EVBFORGE**](https://www.renesas.com/en/design-resources/boards-kits/slg7evbforge) (**€81**): compact, easy-to-use, USB-powered hardware tool that provides SLG47910V 1K lookup table (LUT) ForgeFPGA IC hardware support for design emulation, programming, and real-time testing (with Verilog)
+![](https://www.renesas.com/sites/default/files/1890-SLG7EVEBForge-ANGLE.jpg)
+
+
+### Features
+- USB-C connection to computer
+- Configurable VDD and VDDIO power sources
+- Design emulation and programming ability
+- 2x Pmod™ connectors
+- Zero Insertion Force (ZIF) socket allows for fast, easy removal, and replacement of SLG47910V silicon. Useful for programming and testing individual parts
+
+### Resources: 
+[User Manual](https://www.renesas.com/en/document/mah/forgefpga-evaluation-board-r20-users-manual?r=25546646)
+
+### Distributor:
+[Digikey](https://www.digikey.fi/en/products/detail/renesas-electronics-corporation/slg7evbforge/22972057)
+[Mouser](https://www.mouser.fi/ProductDetail/Renesas-Dialog/SLG7EVBFORGE?qs=2wMNvWM5ZX5HC1b2oIQaEg%3D%3D)
+
+---
+## [**SIPEEED TANG PRIMER 25K**](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html)(**37€**): 
+
+![](https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/2/4/24511-Tang-Primer-25K-Feature.jpg)
+### Features:
+- FPGA: GW5A-LV25MG121
+- Logic Unit (LUT4) - 23040
+- Register (FF) - 23040
+- Distributed Static Random Access Memory S-SRAM (bits) - 180K
+- Block Static Random Access Memory B-SRAM (bits) - 1008K
+- Number of Block Static Random Access Memory B-SRAM - 56
+- Multiplier (18x18 Multiplier) - 28
+- Phase-Locked Loop (PLLs) - 6
+- Total I/O Bank - 8
+- Flash: 64Mbits NOR Flash
+- Overall Packaging: 2x60P BTB Core Board
+- General I/O - 75
+- MIPI I/O - 4 Lane Data
+
+### Online resources
++ Wiki page: https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html
++ Documentation: https://dl.sipeed.com/shareURL/TANG/Primer_25K 
+
+### Projects
+Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-primer-25k-fpga-module-and-dock-carrier-board-69a6b1cd7910
+
+### Distributors:
+[Digikey](https://www.digikey.fi/en/products/detail/sparkfun-electronics/24511/22257498)
+[Aliexpress](https://www.aliexpress.com/item/1005007252284709.html)
+
+---
+## [**iCE40HX1K-EVB**](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/open-source-hardware) (**15€**): low-cost, open-source FPGA development board (*designed with Verilog)
 
 ![](https://www.olimex.com/wiki/images/e/ee/ICE40HX1K-EVB.jpg)
 

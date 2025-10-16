@@ -1,3 +1,43 @@
+## [**DIPFORTy1**](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A): (**€70.21**) "Soft Propeller" with AMD Zynq™ 7010-1C, 16 MByte Flash
+![](https://www.trenz-electronic.de/thumbnail/60/87/b7/1754554221/TE0722-04-41I-4-A_0_800x800.webp?ts=1754554223)
+### Feature
+  - AMD Zynq™ 7 XC7Z010-1CLG225C
+    - 16 MByte SPI Flash (primary boot)
+    - 33.333 MHz Clock (MEMS Oscillator)
+    - dual-core ARM Cortex®-A
+  - DIP40 form factor
+    - 2 x 20 holes for socket pins or pin-header
+    - Size: 18 x 51 mm
+  - Total user accessible PL I/O: 46 (+3 Input only)
+    - DIP40 header pins: 34 I/O
+    - XMOD J1: 6 I/O
+    - XMOD J2: JTAG + 2 I/O (or 3 input + 2 I/O)
+    - XMOD J3: 4 I/O
+- 3.3 V single supply
+- RGB LED (PL I/O connected)
+- "Done" LED (inverted polarity)
+- User LED (ARM CPU MIO GPIO)
+- MicroSD Card socket (MIO, ZYNQ secondary boot media)
+
+### Resources:
+  - [TE0722 "DIPFORTy"](https://wiki.trenz-electronic.de/display/PD/TE0722+-+DIPFORTy) - Wiki with TRM, reference projects, application notes and more
+    - [TE0722 TRM](https://wiki.trenz-electronic.de/display/PD/TE0722+TRM) - Technical Reference Manual
+    - [TE0722 Getting Started](https://wiki.trenz-electronic.de/display/PD/TE0722+Getting+Started) - basic information
+    - [TE0722 Product Change Notifications - PCN](https://wiki.trenz-electronic.de/display/PD/TE0722+Product+Change+Notifications) (see also schematic change history and TRM)
+    - [TE0722 Reference Designs](https://wiki.trenz-electronic.de/display/PD/TE0722+Reference+Designs) - reference design description for Vivado 2017.2 and newer
+  - **Downloads**:
+    - [Download area](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/special/TE0722) - various reference designs, schematics, hardware designs and more
+    - [B2B Pinout Table](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Pinout) - cross reference of modules with board connectors
+  - **Accessories**
+    - [TE0790 Resources](https://wiki.trenz-electronic.de/display/PD/TE0790+Resources) - XMOD JTAG Programmer documentation
+    - [TE0790 CPLD - XMOD DIP40](https://wiki.trenz-electronic.de/pages/viewpage.action.dir/pageId=3925817) - special firmware for XMOD used with TE0722
+  - **Notes**:
+    - [DDR less ZYNQ Design](https://wiki.trenz-electronic.de/display/PD/DDR+less+ZYNQ+Design) - important notes for DDR less Zynq 
+  
+### Distributor
+- [Trenz-Electronics](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A)
+- [Digikey](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TE0722-04-41I-4-A/22081844)
+---
 ## [**MAX1000**](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A): (**US$46.74**, VAT and shipping included) IoT Maker Board, 8kLE, 8 MByte SDRAM, 8 MByte Flash, 6.15 x 2.5 cm
 ![](https://www.trenz-electronic.de/thumbnail/4b/9f/b4/1746171278/TEI0001-04-FBC88A_1_1920x1920.webp?ts=1746171282)
 

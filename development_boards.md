@@ -1,6 +1,76 @@
+## [**GOWIN LittleBee**](https://www.trenz-electronic.de/en/FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM/TEC0117-01-A) (€41.77 / board - bulk 10) FPGA Module with GOWIN LittleBee and 8 MByte internal SDRAM
+![](https://www.trenz-electronic.de/thumbnail/20/b0/e2/1755614260/TEC0117-01_1_800x800.jpg?ts=1755614260)
+### Features
+- GOWIN LittleBee 1NR9 FPGA
+  - 8 MByte internal SDRAM
+- 8 MByte SPI Flash for user applications
+- JTAG and UART over Micro USB2 connector
+- 1 x 6-pin header for JTAG access to FPGA SoC
+- 1 x Pmod header providing 8 I/O
+- 2 x 14-pin headers (2,54 mm pitch) providing 22 I/O
+- 8 x user LEDs
+- 1 x user push button
+- 100 MHz user clock (MEMS oscillator)
+- 5V single power supply with on-board voltage regulators
+- Size: 61.5 x 25 mm
+
+### Resources
+- [**TEC0117 - LittleBee**](https://wiki.trenz-electronic.de/display/PD/TEC0117+-+LittleBee) - Wiki with TRM, reference projects, application notes and more
+  - [TEC0117 Getting Started](https://wiki.trenz-electronic.de/display/PD/TEC0117+Getting+Started) - basic information
+  - [TEC0117 TRM](https://wiki.trenz-electronic.de/display/PD/TEC0117+TRM) - Technical Reference Manual
+  - [TEC0117 Reference Designs](https://wiki.trenz-electronic.de/display/PD/TEC0117+Reference+Designs)
+- **Links**
+  - [Trenz Electronic download area](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/2.5x6.15/TEC0117) - various schematics, hardware designs and more
+  - [Gowin Software download](http://www.gowinsemi.com/support/home/) - free design software (need apply for free license)
+  - [Pinout/Tracelength Table](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Pinout) - illustration of pinout, tracelength and cross reference Information of modules with different baseboards
+- **3rd Party Links**
+  - [TEC0117_ApNote.pdf - Provided by ALSE-FR](https://shop.trenz-electronic.de/trenzdownloads/Trenz_Electronic/Modules_and_Module_Carriers/2.5x6.15/TEC0117/Reference_Design/Factory_Image/TEC0117_ApNote.pdf)
+- **Support**
+  - For support, please go to Trenz Electronic Forum or contact support@trenz-electronic.de.
+
+### Distributors
+- [Trens-electronics](https://www.trenz-electronic.de/en/FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM/TEC0117-01-A)
+- 
+---
+## [**S7 Mini**](https://www.trenz-electronic.de/en/S7-Mini-Fully-Open-Source-Module-with-AMD-Spartan-7S25-1C-64-Mbit-HyperRAM/TE0890-02-P1C-5-A): (**€36.41 / board** - bulk 10) Fully Open-Source Module with AMD Spartan™ 7S25-1C, 64 Mbit HyperRAM
+![](https://www.trenz-electronic.de/thumbnail/23/9c/db/1754558670/TE0890-02-P1C-5-A_1_800x800.webp?ts=1754558673)
+### Features
+- AMD Spartan™ 7 XC7S25-1FTGB196C FPGA
+- Dimensions: 2.7 x 5.2 cm
+- Fully Open-Source Spartan™ 7 Module
+- 7S25 target with 23K logic cells, 29K flops, 45 36Kb BRAMs, 80 mults.
+- Footprint compatible with 7S6, 7S15, 7S50 FTGB-196 devices
+- Devices fully supported by free "Web Pack" Vivado for Synthesis, Place + Route
+- Dual-pinout DIP-40 or 50mil 80 pin connectors for 32 or 64 FPGA 3.3V I/Os
+- 64 Mbit Config PROM for dual-boot and/or SW code storage
+- 64 Mbit HyperRAM DRAM (may be used as video frame buffer)
+- Standard 1x6 FTDI cable serial interface to Host-PCs
+- Standard 1x6 Digilent HS2 JTAG header for initial PROM programming
+- 5V supply input (4.0V-5.5V per PAM2305 spec)
+
+### Resources
+  - [TE0890 - S7 Mini](https://wiki.trenz-electronic.de/display/PD/TE0890+-+S7+Mini) - Wiki with TRM, reference projects, application notes and more
+
+    - TE0890 TRM - Technical Reference Manual (tba)
+    - [TE0890 Reference Designs](https://wiki.trenz-electronic.de/display/PD/TE0890+Reference+Designs) - Reference Design description
+    - [TE0890 "S7 Mini" Product Change Notifications](https://wiki.trenz-electronic.de/pages/viewpage.action.dir/pageId=3925729) - PCN (see also Schematic Change History and TRM
+  #### Links
+  - [Download area](https://shop.trenz-electronic.de/en/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/2.7x5.2/TE0890) - various reference designs, schematics, hardware designs and more
+  - [Test Board Design](https://wiki.trenz-electronic.de/display/PD/TE0890+Test+Board) for the "S7 Mini" TE0890
+  - [Example design](https://github.com/blackmesalabs/s7_mini_fpga) - for the "S7 Mini"
+  - [LiteX soc platform project](https://github.com/micro-FPGA/CRUVI/tree/master/tools/LiteX) - for "S7 Mini"
+  - [FuseSoC Blinky](https://github.com/fusesoc/blinky) - included is support for "S7 Mini"
+  - [Pinout/Tracelength Table](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Pinout) - illustration of pinout, tracelength and cross reference Information of modules with different baseboards
+  - [Developer resource page](https://blackmesalabs.wordpress.com/2019/05/19/bml-s7-mini-fpga-module/)
+  #### Support
+  - For support, please go to http://forum.trenz-electronic.de/ or contact support@trenz-electronic.de
+
+### Distributors
+- [Trenz-electronics](https://www.trenz-electronic.de/en/S7-Mini-Fully-Open-Source-Module-with-AMD-Spartan-7S25-1C-64-Mbit-HyperRAM/TE0890-02-P1C-5-A)
+---
 ## [**DIPFORTy1**](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A): (**€70.21**) "Soft Propeller" with AMD Zynq™ 7010-1C, 16 MByte Flash
 ![](https://www.trenz-electronic.de/thumbnail/60/87/b7/1754554221/TE0722-04-41I-4-A_0_800x800.webp?ts=1754554223)
-### Feature
+### Features
   - AMD Zynq™ 7 XC7Z010-1CLG225C
     - 16 MByte SPI Flash (primary boot)
     - 33.333 MHz Clock (MEMS Oscillator)
@@ -91,6 +161,7 @@
 
 ### Distributor
 - [Trenz-Electronics](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A)
+
 ---
 ## [**iCEstick Evaluation Kit**](https://www.latticesemi.com/icestick): (**€130.73**) easy-to-use USB thumb-drive form-factor development board.
 ![](https://hackaday.com/wp-content/uploads/2016/11/ice.png)
@@ -194,6 +265,7 @@ Designers can use the included reference designs (IRDA UART TX and IRDA UART RX)
 
 ### Distributor
 - [Digikey](https://www.digikey.fi/en/products/detail/olimex-ltd/gatematea1-evb/22258042)
+
 ---
 ## [**SLG7EVBFORGE**](https://www.renesas.com/en/design-resources/boards-kits/slg7evbforge) (**€81**): compact, easy-to-use, USB-powered hardware tool that provides SLG47910V 1K lookup table (LUT) ForgeFPGA IC hardware support for design emulation, programming, and real-time testing (with Verilog)
 ![](https://www.renesas.com/sites/default/files/1890-SLG7EVEBForge-ANGLE.jpg)

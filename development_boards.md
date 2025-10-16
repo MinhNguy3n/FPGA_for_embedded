@@ -1,6 +1,44 @@
+## [**GateMateA1-EVB**](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/open-source-hardware) (**53€**): Low cost/performance ratio, addresses all application requirements of small to medium size FPGA projects
+![](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/images/GateMateA1-EVB.jpg)
+
+### Features
+- CCGM1A1 FPGA with 20480 logic cells
+- PSRAM 64Mbit
+- RP2040 processor for programming and debugging
+- 2MB configuration Flash
+- 4 buttons
+- USB-C for power supply and programming
+- PS2 connector
+- VGA connector
+- 4 Banks with signals with selectable levels 1.2V, 1.8V, 2.5V
+- PMOD with level shifters
+- UEXT with level shifters
+- Power LED
+- User LED
+- 4 sections configuration slide switch
+- Dimensions: 120 x 80 mm
+
+### Resources:
+- [CologneChip web page with datasheet](https://www.colognechip.com/programmable-logic/gatemate/)
+- [GateMateA1-EVB user manual](https://github.com/OLIMEX/GateMateA1-EVB/blob/main/DOCUMENTS/GateMateA1-EVB-user-manual.pdf)
+- [GateMateA1-EVB EU declaration of conformity](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/resources/EU-DOC-GateMateA1-EVB.pdf)
+- [GateMateA1-EVB UKCA declaration of conformity](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/resources/UKCA-DOC-GateMateA1-EVB.pdf)
+- [Important note](https://github.com/OLIMEX/GateMateA1-EVB/blob/main/HARDWARE/GateMateA1-EVB-Rev.A/IMPORTANT-NOTE.txt) for GateMateA1-EVB customers purchased before March 1, 2024
+
+**HARDWARE**
+- [GateMateA1-EVB schematic in PDF format](https://github.com/OLIMEX/GateMateA1-EVB/blob/main/HARDWARE/GateMateA1-EVB-Rev.A/GateMateA1-EVB_Rev_A.pdf)
+- [GateMateA1-EVB repository with sources in KiCAD format](https://github.com/OLIMEX/GateMateA1-EVB)
+
+**SOFTWARE**
+- [GateMate toolchain installation guide](https://www.colognechip.com/docs/ug1002-toolchain-install-latest.pdf)
+- [pico-dirtyJtag binary and README](https://github.com/OLIMEX/GateMateA1-EVB/tree/main/SOFTWARE/dirtyJtag)
+- [Gatemate ILA (Integrated Logic Analyzer) repository](https://github.com/colognechip/gatemate_ila)
+
+### Distributor
+- [Digikey](https://www.digikey.fi/en/products/detail/olimex-ltd/gatematea1-evb/22258042)
+---
 ## [**SLG7EVBFORGE**](https://www.renesas.com/en/design-resources/boards-kits/slg7evbforge) (**€81**): compact, easy-to-use, USB-powered hardware tool that provides SLG47910V 1K lookup table (LUT) ForgeFPGA IC hardware support for design emulation, programming, and real-time testing (with Verilog)
 ![](https://www.renesas.com/sites/default/files/1890-SLG7EVEBForge-ANGLE.jpg)
-
 
 ### Features
 - USB-C connection to computer
@@ -10,11 +48,15 @@
 - Zero Insertion Force (ZIF) socket allows for fast, easy removal, and replacement of SLG47910V silicon. Useful for programming and testing individual parts
 
 ### Resources: 
-[User Manual](https://www.renesas.com/en/document/mah/forgefpga-evaluation-board-r20-users-manual?r=25546646)
+- [User Manual](https://www.renesas.com/en/document/mah/forgefpga-evaluation-board-r20-users-manual?r=25546646)
+- [Quick Start Guide](https://www.renesas.com/en/document/qsg/forgefpga-evaluation-board-quick-start-guide?r=25546646)
+- [HW Configuration guide](https://www.renesas.com/en/document/mah/forgefpga-configuration-guide?r=25546646)
+- [SW Simulation guide](https://www.renesas.com/en/document/mas/forgefpga-software-simulation-user-guide?r=25546646)
+- [Go Configure software](https://www.renesas.com/en/software-tool/go-configure-software-hub)
 
 ### Distributor:
-[Digikey](https://www.digikey.fi/en/products/detail/renesas-electronics-corporation/slg7evbforge/22972057)
-[Mouser](https://www.mouser.fi/ProductDetail/Renesas-Dialog/SLG7EVBFORGE?qs=2wMNvWM5ZX5HC1b2oIQaEg%3D%3D)
+- [Digikey](https://www.digikey.fi/en/products/detail/renesas-electronics-corporation/slg7evbforge/22972057)
+- [Mouser](https://www.mouser.fi/ProductDetail/Renesas-Dialog/SLG7EVBFORGE?qs=2wMNvWM5ZX5HC1b2oIQaEg%3D%3D)
 
 ---
 ## [**SIPEEED TANG PRIMER 25K**](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html)(**37€**): 
@@ -43,8 +85,8 @@
 Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-primer-25k-fpga-module-and-dock-carrier-board-69a6b1cd7910
 
 ### Distributors:
-[Digikey](https://www.digikey.fi/en/products/detail/sparkfun-electronics/24511/22257498)
-[Aliexpress](https://www.aliexpress.com/item/1005007252284709.html)
+- [Digikey](https://www.digikey.fi/en/products/detail/sparkfun-electronics/24511/22257498)
+- [Aliexpress](https://www.aliexpress.com/item/1005007252284709.html)
 
 ---
 ## [**iCE40HX1K-EVB**](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/open-source-hardware) (**15€**): low-cost, open-source FPGA development board (*designed with Verilog)
@@ -79,9 +121,11 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 ### Projects
 
-[https://olimex.wordpress.com/2016/07/12/hello-world-with-verilog-on-ice40hx1k-evb-with-open-source-tool-icestorm/](https://olimex.wordpress.com/2016/07/12/hello-world-with-verilog-on-ice40hx1k-evb-with-open-source-tool-icestorm/ "smartCard-inline")
+[Hello world with Verilog](https://olimex.wordpress.com/2016/07/12/hello-world-with-verilog-on-ice40hx1k-evb-with-open-source-tool-icestorm/)
 
-‌
+‌### Distributors:
+- [Olimex](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/open-source-hardware)
+- [Mouser](https://www.mouser.fi/ProductDetail/Olimex-Ltd/ICE40HX1K-EVB?qs=K5ytOU5dogqDm9Cy2ZyazQ%3D%3D)
 
 ---
 
@@ -104,11 +148,11 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 ### Available resource
 
-‌[Hardware Instructions](https://files.seeedstudio.com/products/114992325/RUNBER_Development_Board_Hardware_Instructions_en.pdf "‌")
-[Instructions for Experiments](https://files.seeedstudio.com/products/114992325/Runber_Development_Board_Instructions_for_Experiments.pdf "‌")
-[Software User Guide](https://files.seeedstudio.com/products/114992325/Gowin_device&Software_User_Guide.zip "‌")
-[Source Code](https://files.seeedstudio.com/products/114992325/Gowin_RUNBER_BOARD_source_code.zip "‌")
-[Schematics](https://files.seeedstudio.com/products/114992325/Runber_Development_Board_Schematics.pdf "‌")
+‌- [Hardware Instructions](https://files.seeedstudio.com/products/114992325/RUNBER_Development_Board_Hardware_Instructions_en.pdf "‌")
+- [Instructions for Experiments](https://files.seeedstudio.com/products/114992325/Runber_Development_Board_Instructions_for_Experiments.pdf "‌")
+- [Software User Guide](https://files.seeedstudio.com/products/114992325/Gowin_device&Software_User_Guide.zip "‌")
+- [Source Code](https://files.seeedstudio.com/products/114992325/Gowin_RUNBER_BOARD_source_code.zip "‌")
+- [Schematics](https://files.seeedstudio.com/products/114992325/Runber_Development_Board_Schematics.pdf "‌")
 
 ### Example project:
 
@@ -116,7 +160,7 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 ### Distributor:
 
-[https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/114992325/13635854](https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/114992325/13635854 "smartCard-inline")
+- [Digikey](https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/114992325/13635854 "smartCard-inline")
 
 ---
 

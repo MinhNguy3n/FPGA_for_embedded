@@ -1,3 +1,121 @@
+## [**MAX1000**](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A): (**US$46.74**, VAT and shipping included) IoT Maker Board, 8kLE, 8 MByte SDRAM, 8 MByte Flash, 6.15 x 2.5 cm
+![](https://www.trenz-electronic.de/thumbnail/4b/9f/b4/1746171278/TEI0001-04-FBC88A_1_1920x1920.webp?ts=1746171282)
+
+### Features
+
+#### FPGA 
+- Device: Intel MAX 10
+- Logic Size:  02 / 04 / 08 / 16
+- Speedgrade:  6 / 7 / 8
+- Temperature Range: C / I / A
+- Package: U169
+#### RAM/Storage
+- 8 MByte SDRAM 1
+- 8 MByte SPI Flash 1
+- 4 KBit EEPROM for FTDI
+#### On Board
+- ST Microelectronics LIS3DH 3-axis accelerometer
+- JTAG and UART over Micro USB2 connector
+- 8x user LEDs
+- 1x user push button
+- 1x reset button
+- MEMS Oscillator 2)
+#### Interface
+- 2x 14-pin headers (2.54 mm pitch) for 7 analog, 15 digital inputs and various connections.
+- 1x PMOD header providing 8 GPIOs
+- 1x 6 pin header for JTAG access to FPGA SoC
+- 1x 3 pin header providing 2 analog inputs or 1 GPIO
+#### Power
+- 5.0 V single power supply via Micro USB or Pin Header
+#### Dimension
+- 61.5 mm x 25 mm
+
+### Resources:
+#### MAX1000 2.5 x 6.15 cm FPGA module with Intel MAX10 FPGA
+- [TEI0001 - MAX1000](https://wiki.trenz-electronic.de/display/PD/TEI0001+-+MAX1000) - Wiki with TRM, reference projects, application notes and more
+- [TEI0001 TRM](https://wiki.trenz-electronic.de/display/PD/TEI0001+TRM)- Technical Reference Manual
+- [TEI0001 Getting Started](https://wiki.trenz-electronic.de/display/PD/TEI0001+Getting+Started)  - basic information
+- [TEI0001 Reference Designs](https://wiki.trenz-electronic.de/display/PD/TEI0001+Reference+Designs)  - Reference Design Description for Quartus 17.1 and newer
+- [TEI0001 PCN](https://wiki.trenz-electronic.de/display/PD/TEI0001+PCN) - Product Change Notification  (see also Schematic Change History and TRM)
+- [Arrow USB Programmer](https://wiki.trenz-electronic.de/display/PD/Arrow+USB+Programmer) - Arrow USB Programmer 2 driver setup installation instruction and Troubleshoot
+#### Links
+- [Download area](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/2.5x6.15/TEI0001) - various schematics, hardware designs and more
+- [Arrow USB Programmer Setup Libraries](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Software/Drivers/Arrow_USB_Programmer) - driver
+- [Pinout/Tracelength Table](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Pinout) - illustration of pinout, tracelength and cross reference Information of modules with different baseboards
+#### Forum
+- [MAX1000 community projects](https://forum.trenz-electronic.de/index.php/board,36.0.html)
+- [DEMO MAX1000: USER GUIDE](https://forum.trenz-electronic.de/index.php/topic,756.0.html) .... first steps with MAX1000 - User Guide
+- [MAX1000 Hardware](https://forum.trenz-electronic.de/index.php/topic,741.0.html) - Hardware Notes
+- [MAX1000 Driver and Setup Files](https://forum.trenz-electronic.de/index.php/topic,740.0.html) - Driver Notes
+- [MAX1000 Demo Projects](https://forum.trenz-electronic.de/index.php/topic,739.0.html) - Shipped LED DEMO Design
+
+### Distributor
+- [Trenz-Electronics](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A)
+---
+## [**iCEstick Evaluation Kit**](https://www.latticesemi.com/icestick): (**€130.73**) easy-to-use USB thumb-drive form-factor development board.
+![](https://hackaday.com/wp-content/uploads/2016/11/ice.png)
+
+### Features
+- USB thumb drive form factor
+- iCE40HX-1k on board
+- 2 x 6 position Digilent Pmod™ connector for other peripheral connections
+- FTDI 2232H USB device allows iCE device programming and UART interface to a PC
+- Vishay TFDU4101 IrDA transceiver
+- Five user LEDs
+- Discera 12 Mhz MEMS oscillator
+- Micron 32 Mbit N25Q32 SPI flash
+- USB connector provides the power supply
+- 16 LVCMOS/LVTTL (3.3 V) digital I/O connections on 0.1” through-hole connections
+#### iCEstick with Pmod™
+iCEstick contains a Digilent Pmod™ connector to attach various peripheral modules. The accelerometer reference design using Pmod™-ACL is an example. Purchased separately, this HDL design showcases how the iCE40 device interfaces to an acceleromter sensor, enabling the user to integrate additional sensors for their particular product.
+#### IrDA Tx & Rx Reference Designs
+Designers can use the included reference designs (IRDA UART TX and IRDA UART RX) to simplify the prototyping of a wide variety of applications involving wireless transmission of data or control signals utilizing the onboard IrDA transceiver. Examples include wireless data transmission between two mobile devices such as smartphones, tablets, gaming devices, etc. Wireless control applications such as high-end remote controls, TVs, LED lighting control and others can also be implemented.
+
+### Resources
+- [User manual](https://www.latticesemi.com/view_document?document_id=50701)
+- [Programming cable user guide](https://www.latticesemi.com/view_document?document_id=143)
+- [Case study: Using Low-cost, Non-volatile PLDs in System Application](https://www.latticesemi.com/view_document?document_id=39270)
+#### Design file:
+- [Default LED Rotation bitmap for iCEstick](https://www.latticesemi.com/view_document?document_id=50013)
+- [iCEstick LED Rotation](https://www.latticesemi.com/view_document?document_id=50033)
+- [IRDA UART RX](https://www.latticesemi.com/view_document?document_id=51470)
+- [IRDA UART TX](https://www.latticesemi.com/view_document?document_id=51145)
+- [Pmod Accelerometer](https://www.latticesemi.com/view_document?document_id=50034)
+
+### Distributor
+- [Digikey](https://www.digikey.fi/en/products/detail/lattice-semiconductor-corporation/ICE40HX1K-STICK-EVN/4289604)
+
+---
+
+## [**SNO ARDUINO**](https://www.digikey.fi/en/product-highlight/a/alorium/sno-fpga-system) (**€42**): Arduino-compatible FPGA development board
+![](https://aloriumtech.com/wp-content/uploads/2017/01/Sno_Top_Final-min.jpg)
+
+### Features
+- Intel® MAX® 10 FPGA (16K LEs)
+- 10M16SAU169C8G
+- Programmable with Arduino IDE
+- Embedded 8-bit AVR instruction set compatible microcontroller
+- Configurable with custom XBs on the FPGA
+- Digital I/O pins: 32
+- Analog pins: 6
+- ADC performance: 1 MHz
+- ADC resolution: 12-bit sustained
+- ADC sample rate: 254k samples/second
+- Program FLASH 32 KB
+- Data memory SRAM: 2 KB
+- Connectivity: solderable vias
+- Programming interface: FTDI
+
+### [**SNOMAKRR10**](https://aloriumtech.com/snomakr/) (€26.59) Arduino Breakout board for SNO
+![](https://aloriumtech.com/wp-content/uploads/2018/03/snomakr_sno-min.png)
+### Resources:
+- [Github](https://github.com/AloriumTechnology)
+- [Tutorial](http://www.aloriumtech.com/xlr8-quickstart/)
+
+### Distributors:
+- [Digikey SNO](https://www.digikey.fi/en/products/detail/alorium-technology-llc/SNOR21M16V3/9607424)
+- [Digikey SNOMAKKR10](https://www.digikey.fi/en/products/detail/alorium-technology-llc/SNOMAKRR10/9607425)
+
 ## [**GateMateA1-EVB**](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/open-source-hardware) (**53€**): Low cost/performance ratio, addresses all application requirements of small to medium size FPGA projects
 ![](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/images/GateMateA1-EVB.jpg)
 

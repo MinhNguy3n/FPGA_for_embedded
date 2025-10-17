@@ -1,4 +1,90 @@
-## [TinyFPGA](https://tinyfpga.com/) (**€12.90**) A range of tiny, low-cost, well-supported, and open FPGA dev boards
+## [**MAX1000-VHDPlus**](https://vhdplus.com/docs/components/max1000/)(€39.98): inexpensive way to start with FPGAs (VHDPlus IDE)
+![](https://shop.vhdplus.com/wp-content/uploads/2021/02/TEI0001-03-08-C8_2.jpg)
+### Features:
+#### Hardware Overview
+![](https://vhdplus.com/assets/images/Top_labled-f008c9fb99e310ed584b827dcd6c15ca.png)
+#### Specs
+- MAX 10 FPGA (10M08SAU169C8G):
+  - Logic Elements          - 8,000
+  - RAM                     - 378 Kb
+  - Configuration Memory    - 2.24 Mb
+  - ADC                     - 1 Mio. Samples/s
+                            - 12 Bit
+                            - 8 Inputs
+  - PLL                     - 2
+                            - > 300 MHz
+  - 18 x 18 Multiplier      - 24
+  - Configuration Images    - 2
+- SDRAM (W9864G6JT-6):        - 64 Mb
+- Flash (W74M64FVSSIQ):       - 64 Mb
+- Oscillator (DSC6011ME2A):   - 12 MHz
+
+### [VHDPlus Resources](#vhdplus-resources)
+
+### Projects
+- [Example Projects, by Victor PM](https://github.com/vpecanins/max1000-tutorial)
+
+### Distributor
+- [VHDPlus](https://shop.vhdplus.com/product/max1000/)
+
+---
+## [**CORE_MAX10-VHDPlus**](https://vhdplus.com/docs/components/vhdpcore_max10/)(€49.98): entry into FPGA programming for everybody who wants to use all the power of FPGAs
+![](https://shop.vhdplus.com/wp-content/uploads/2020/05/Core.png)
+### Features
+- CRUVI High Speed Connector
+- CRUVI Low Speed Connector
+- MAX 10 FPGA (10M08SAU169C8G):
+  - Logic Elements: 8,000
+  - RAM: 378 Kb
+  - Configuration Memory: 2.24 Mb
+- ADC:
+  - 8 Channels
+  - 1 Mio. Samples/s
+  - 12 Bit
+- 2x PLL:
+  - > 300 MHz
+  - 18 x 18 Multiplier: 24
+  - Configuration Images: 2
+- Arrow USB-Programmer (with USB to Serial Interface)
+- SDRAM (W9864G6JT-6): 64 Mb
+- Flash (W74M64FVSSIQ): 64 Mb
+- Oscillator (DSC6011ME2A): 12 MHz
+
+#### Core Overview
+![](https://vhdplus.com/assets/images/Items2-6e3162122f4a1171d5630fe7dbe17dcb.png)
+
+### VHDPlus Resources
+- [VHDPlus Getting started](https://vhdplus.com/docs/getstarted/): Getting started guide with VHDPlus IDE, Driver installation, simulation tools
+- [Arrow USB Driver](https://vhdplus.com/docs/getstarted/drivers/): Programmer for VHDPlus FPGAs.
+- [VHDPlus Libraries and Examples](https://github.com/VHDPlus/VHDPlus_Libraries_and_Examples/): Collection of libraries and examples on VHDPlus IDE 
+
+### Projects
+![](https://vhdplus.com/img/community/robot_demo.mp4)
+- [Logic Analyzer](https://vhdplus.com/docs/community/logic_analyzer/) - tutorial to convert the Core MAX10 or MAX1000 FPGA into a Logic Analyzer. Because of the high performance, even sample rates of 200MHz and more would be possible. And if you would buy a logic analyzer with this sample rates, you would have to spend more than 100€. With the FPGA you can also modify the sample speed, depth and input channels.[github](https://github.com/leonbeier/OLS_Logic_Analyzer)
+![](https://vhdplus.com/assets/images/LA-c58b31669438a0e69bf257834e8fc28a.png)
+
+- [Your first Robot](https://vhdplus.com/docs/community/motor/) - tutorial of making a robot that can drive a pre defined route and surround objects blocking the route. [github](https://github.com/VHDPlus/VHDPlus_Libraries_and_Examples/tree/master/Examples/Hardware/Output/Motor_Route)
+![](VHDPlus_Libraries_and_Examples/Examples/Hardware/Output/Motor_Route/demonstration.gif)
+
+- [Camera and Object Detection](https://vhdplus.com/docs/community/camera/) - tutorial on how to use [OnSemi Camera](https://vhdplus.com/docs/components/onsemi_camera) with HDMI,  how to apply filters to the received images and finally create an object detection. 
+![](https://vhdplus.com/assets/images/Camera-56a78e85dd2f9b8aaaba217d491196d3.webp)
+
+- [Simple Neural Net](https://vhdplus.com/docs/community/neural_net/)- tutorial on training a simple Neural Net with an FPGA, available on [github](https://github.com/leonbeier/NN_RGB_FPGA), the neural net is trained for colors. With the IAS Camera Exptension, the performance of this filter is tested.
+![](https://vhdplus.com/assets/images/nn_t-2ec20389ce22c56a2f20f2a449da7620.png)
+- [Light Tracker](https://vhdplus.com/docs/community/light_tracker/) - learn how to use a camera and servos. The white parts of the camera image are detected and with two servos the camera is turned into the direction of the light.
+![](https://vhdplus.com/assets/images/light_track_2-483977f5667bdba14ced885b056fc6a4.jpg)
+
+- [LED Matrix](https://vhdplus.com/docs/community/matrix/) - In this tutorial we want to make an LED matrix that can display a custom text or show an image. This can be extended into a clock, games or a spectrum analyzer.
+<video controls width="640" height="360">
+  <source src="matrix-demonstration.mp4" type="video/webm">
+  Your browser does not support the video tag. You can download the video here: [matrix-demonstration.webm](matrix-demonstration.webm)
+</video>
+
+### Distributors
+
+---
+
+## [**TinyFPGA**](https://tinyfpga.com/) (**€12.90**) A range of tiny, low-cost, well-supported, and open FPGA dev boards
 ![](https://www.crowdsupply.com/img/bf66/73137f1b-5f2e-4247-9876-d5a7dcdabf66/tinyfpga-front-back-1-1_jpg_gallery-lg.jpg)
 ### Features
 - Height: 1.4 inches, width: 0.7 inches
@@ -44,7 +130,7 @@
 - [Mouser](https://www.mouser.fi/ProductDetail/Crowd-Supply/CS-TINYFPGA-04?qs=xZ%2FP%252Ba9zWqYTMXmT%2F9UHzg%3D%3D)
 - [Digikey, AX2](https://www.digikey.fi/en/products/detail/sparkfun-electronics/14828/9561755)
 ---
-## [FireAnt](https://www.crowdsupply.com/jungle-elec/fireant) (€32.68) A low-cost, thumb-sized, breadboard-friendly FPGA dev board for makers and hardware designers
+## [**FireAnt**](https://www.crowdsupply.com/jungle-elec/fireant) (€32.68) A low-cost, thumb-sized, breadboard-friendly FPGA dev board for makers and hardware designers
 ![](https://www.crowdsupply.com/img/4a9f/17c84a05-9973-4c69-abe4-ffa922d74a9f/fireant-boarddescription-withoutlegend_png_gallery-lg.jpg)
 1. Efinity Trion T8F81C2 FPGA
 2. FTDI FT232HQ UART/FIFO IC
@@ -247,7 +333,7 @@
 - [Digikey TE790](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TE0790-03L/11594256)
 
 ---
-## [**MAX1000**](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A): (**US$46.74**, VAT and shipping included) IoT Maker Board, 8kLE, 8 MByte SDRAM, 8 MByte Flash, 6.15 x 2.5 cm
+## [**MAX1000-Trenz-electronic**](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A): (**US$46.74**, VAT and shipping included) IoT Maker Board, 8kLE, 8 MByte SDRAM, 8 MByte Flash, 6.15 x 2.5 cm
 ![](https://www.trenz-electronic.de/thumbnail/4b/9f/b4/1746171278/TEI0001-04-FBC88A_1_1920x1920.webp?ts=1746171282)
 
 ### Features
@@ -530,6 +616,56 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 ### Distributor:
 
 - [Digikey](https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/114992325/13635854 "smartCard-inline")
+---
+## [CYC1000-VHDPlus](https://vhdplus.com/docs/components/cyc1000/) (**€41.82**): FPGA Development Board is for everybody who needs more logic elements than you get with the MAX1000.
+![](https://vhdplus.com/assets/images/TEI0003-d9195bcec9449e4eead67d87a13e59d7.png)
+### Features:
+#### Board Overview
+![](https://vhdplus.com/assets/images/Top_labled-1b5bc8d920ca9254728bfa2788a95d05.png)
+#### Specs 
+- Cyclone 10 FPGA (10CL025YU256C8G):
+  - Logic Elements          - 25,000
+  - RAM                     - 594 Kb
+  - PLL                     - 4
+                            - > 300 MHz
+  - 18 x 18 Multiplier      - 66
+- SDRAM (W9864G6JT-6):        - 64 Mb
+- Flash (EPCQ16A):            - 16 Mb
+- Oscillator (DSC6011ME2A):   - 12 MHz
+
+### Resources:
+- [Cyclone 10 LP FPGA product table](https://www.intel.com/content/www/us/en/content-details/714190/cyclone-10-lp-fpga-product-table.html), Check Product line **10CL025**.
+- [Intel® Cyclone® 10 LP Device Overview](https://www.intel.com/content/www/us/en/docs/programmable/683879/current/device-overview.html)
+- [Intel® Cyclone® 10 LP Datasheet](https://www.intel.com/content/www/us/en/docs/programmable/683251/current/device-datasheet.html)
+
+### Projects:
+- [Simple Projects walking LED and loopback for the serial port, by Tim Michals](https://github.com/tcmichals/cyc1000)
+### Distributors:
+[Digikey](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TEI0003-03-QFCR4A/22081856)
+
+---
+## [**EK-10M08E144**](https://www.altera.com/products/devkit/a1jui0000049uttmam/max-10-fpga-10m08-evaluation-kit-power-soln-1) (**€54.04**) Altera MAX 10 Evaluation kit: compact, entry-level platform designed to evaluate the capabilities of the MAX 10 FPGA family
+![](https://www.altera.com/sites/default/files/offering-assets/image_68e7d5cdbb382_max-10-eval-board.jpg)
+
+### Features
+- MAX 10 FPGA with 8K logic elements and integrated ADC
+- Supports configuration via JTAG and internal flash with dual-image capability
+- Includes Arduino UNO R3-compatible headers for analog and digital I/O expansion
+- Provides 40 general-purpose I/Os and 8 analog input channels
+- Offers 5 user LEDs, 6 DIP switches, and 2 pushbuttons for user interaction
+- Powered via USB with onboard power measurement test points
+- Includes a 50 MHz oscillator for general-purpose clocking
+- Enables analog signal scaling through onboard op-amp circuits
+- Supports power monitoring and temperature sensing via integrated ADC
+- Compact, through-hole prototyping area for custom component integration
+
+### Resource
+- [Evaluation Kit user guide](https://www.intel.com/content/www/us/en/docs/programmable/812857/current/overview.html)
+- [Kit Installation](https://cdrdv2.intel.com/v1/dl/getContent/776420)
+
+### Distributors
+[Digikey](https://www.digikey.fi/en/products/detail/altera/EK-10M08E144/4976140)
+[Mouser](https://eu.mouser.com/ProductDetail/Altera/EK-10M08E144?qs=AX3SRYwdf7FCUbD2xGBE%252BQ%3D%3D)
 
 ---
 

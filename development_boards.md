@@ -1,3 +1,34 @@
+## [Seeed Studio Spartan Edge Accelerator (SEA) Board](https://www.seeedstudio.com/Spartan-Edge-Accelerator-Board-p-4261.html) (*$39.50/board, **10+ bulk $35.10/board**) a Xilinx Spartan FPGA development board in the Arduino UNO shield form factor.
+![](https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/s/p/spartan-edge-accelerater-board-v1.0-preview-2.jpg)
+
+### Features
+#### High-speed image processing
+- Support Raspberry Pi camera v1.0(OV5640)
+- Support max 30fps image transmission
+- Encrypted Internet of Things
+- Support cloud services （AWS, Azure, etc.）
+- Support software encryption algorithm
+#### Multiple I/O port extensions
+- 20 extended I/O ports（FPGA stand-alone mode）
+- 10 extended I/O ports（Arduino shield mode）
+- Support for Arduino expansion interface
+
+
+
+#### Hardware Overview
+![](https://github.com/SeeedDocument/Spartan-Edge-Accelerator-Board/raw/master/img/Spartan-Edge-Accelerater-Board-v1.0-pin.jpg)
+
+### Resources
+- [Spartan Edge Accelerator Board v1.0 eagle file](https://github.com/SeeedDocument/Spartan-Edge-Accelerator-Board/raw/master/res/Spartan%20Edge%20Accelerator%20Board%20v1.0.zip)
+- [Spartan-7 FPGAs Data Sheet.pdf](https://github.com/SeeedDocument/Spartan-Edge-Accelerator-Board/raw/master/res/Spartan-7%20FPGAs%20Data%20Sheet.pdf)
+- [ESP32-datasheet.pdf](https://github.com/SeeedDocument/Spartan-Edge-Accelerator-Board/raw/master/res/ESP32-datasheet.pdf)
+- [Spartan Edge Accelerator Board Wiki](http://wiki.seeedstudio.com/Spartan-Edge-Accelerator-Board/)
+
+### Distributors
+[Seeed Studio](https://www.seeedstudio.com/Spartan-Edge-Accelerator-Board-p-4261.html)
+[Digikey](https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/102030005/10492205)
+
+---
 ## [**GOWIN LittleBee**](https://www.trenz-electronic.de/en/FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM/TEC0117-01-A) (€41.77 / board - bulk 10) FPGA Module with GOWIN LittleBee and 8 MByte internal SDRAM
 ![](https://www.trenz-electronic.de/thumbnail/20/b0/e2/1755614260/TEC0117-01_1_800x800.jpg?ts=1755614260)
 ### Features
@@ -68,7 +99,7 @@
 ### Distributors
 - [Trenz-electronics](https://www.trenz-electronic.de/en/S7-Mini-Fully-Open-Source-Module-with-AMD-Spartan-7S25-1C-64-Mbit-HyperRAM/TE0890-02-P1C-5-A)
 ---
-## [**DIPFORTy1**](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A): (**€70.21**) "Soft Propeller" with AMD Zynq™ 7010-1C, 16 MByte Flash
+## [**TE0722**](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A): (**€70.21**) DIPFORTy1 "Soft Propeller" with AMD Zynq™ 7010-1C, 16 MByte Flash
 ![](https://www.trenz-electronic.de/thumbnail/60/87/b7/1754554221/TE0722-04-41I-4-A_0_800x800.webp?ts=1754554223)
 ### Features
   - AMD Zynq™ 7 XC7Z010-1CLG225C
@@ -103,10 +134,29 @@
     - [TE0790 CPLD - XMOD DIP40](https://wiki.trenz-electronic.de/pages/viewpage.action.dir/pageId=3925817) - special firmware for XMOD used with TE0722
   - **Notes**:
     - [DDR less ZYNQ Design](https://wiki.trenz-electronic.de/display/PD/DDR+less+ZYNQ+Design) - important notes for DDR less Zynq 
-  
+
+### [XMOD (TE0790)](https://www.trenz-electronic.de/en/XMOD-FTDI-JTAG-Adapter-AMD-compatible/TE0790-03) TE0722 Programmer with special firmware 
+![](https://www.trenz-electronic.de/thumbnail/03/cf/fa/1745994962/TE0790-03_1_800x800.jpg?ts=1746175386)
+
+### Related resource:
+- [**TE0790 - XMOD**](https://wiki.trenz-electronic.de/display/PD/TE0790+-+XMOD) - Wiki with TRM, reference projects, application notes and more
+  - [TE0790 TRM](https://wiki.trenz-electronic.de/display/PD/TE0790+TRM) - XMOD Technical Reference Manual
+  - [TE0791 TRM](https://wiki.trenz-electronic.de/display/PD/TE0791+TRM) - Adapter to convert XMOD 2 x 6 Pin Header to different connector types
+  - [TE0790 CPLD Firmware](https://wiki.trenz-electronic.de/display/PD/TE0790+CPLD+Firmware) - CPLD Firmware Description and Variants
+  - [TE0790 Identification](https://wiki.trenz-electronic.de/display/PD/TE0790+Identification) - Identify variant with AMD/Digilent License Key preprogrammed.
+- **Links**
+  - [TE0790 Download area](https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/JTAG_Programmer/TE0790) - schematics, Step models, CPLD Firmware and Source code and more
+  - [AMD FTDI JTAG Programmer](https://wiki.trenz-electronic.de/display/PD/AMD+FTDI+JTAG+Programmer) - Modification to use free AMD License
+
+- **Support**
+  - For support, please go to http://forum.trenz-electronic.de/ or contact support@trenz-electronic.de
+
 ### Distributor
-- [Trenz-Electronics](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A)
-- [Digikey](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TE0722-04-41I-4-A/22081844)
+- [Trenz-Electronics TE0722](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A)
+- [Trenz-Electronics TE790](https://www.trenz-electronic.de/en/XMOD-FTDI-JTAG-Adapter-AMD-compatible/TE0790-03)
+- [Digikey TE0722](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TE0722-04-41I-4-A/22081844)
+- [Digikey TE790](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TE0790-03L/11594256)
+
 ---
 ## [**MAX1000**](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A): (**US$46.74**, VAT and shipping included) IoT Maker Board, 8kLE, 8 MByte SDRAM, 8 MByte Flash, 6.15 x 2.5 cm
 ![](https://www.trenz-electronic.de/thumbnail/4b/9f/b4/1746171278/TEI0001-04-FBC88A_1_1920x1920.webp?ts=1746171282)

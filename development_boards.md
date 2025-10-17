@@ -1,4 +1,66 @@
-## [**MAX1000-VHDPlus**](https://vhdplus.com/docs/components/max1000/)(€39.98): inexpensive way to start with FPGAs (VHDPlus IDE)
+# FPGA evaluation kit and development boards
+
+## Summary table (grouped by Vendor, sorted by increasing price within each vendor)
+
+### Table of contents (grouped by vendor)
+
+#### 1bitsquared
+- [1bitsquared iCEBreaker](#1bitsquared-icebreaker) — €79.95
+
+#### Aloriumtech
+- [Aloriumtech SNO ARDUINO](#aloriumtech-sno-arduino) — €42  
+- [Aloriumtech SNOMAKRR10](#aloriumtech-snomakrr10) — €26.59
+
+#### Altera
+- [Altera EK-10M08E144](#altera-ek-10m08e144) — €54.04
+
+#### Crowdsupply
+- [Crowdsupply TinyFPGA](#crowdsupply-tinyfpga) — €12.90  
+- [Crowdsupply FireAnt](#crowdsupply-fireant) — €32.68
+
+#### Digilent
+- [Digilent Cmod A7 35T](#digilent-cmod-a7-35t) — $99  
+- [Digilent Basys 3](#digilent-basys-3) — $165
+
+#### Lattice-Semi
+- [Lattice-Semi iCEstick Evaluation Kit](#lattice-semi-icestick-evaluation-kit) — €130.73
+
+#### Olimex
+- [Olimex iCE40HX1K-EVB](#olimex-ice40hx1k-evb) — €15  
+- [Olimex GateMateA1-EVB](#olimex-gatematea1-evb) — €53
+
+#### RealDigital
+- [RealDigital Boolean (no BLE)](#realdigital-boolean) — $84
+
+#### Renesas
+- [Renesas SLG7EVBFORGE](#renesas-slg7evbforge) — €81
+
+#### Seeed-Studio
+- [Seeed-Studio RUNBER FPGA](#seeed-studio-runber-fpga) — €25  
+- [Seeed-Studio Spartan Edge Accelerator (SEA) Board](#seeed-studio-spartan-edge-accelerator-sea-board) — $39.50
+
+#### SIPEEED
+- [SIPEEED TANG PRIMER 25K](#sipeeed-tang-primer-25k) — €37
+
+#### TUL
+- [TUL PYNQ-Z2](#tul-pynq-z2) — €156.76
+
+#### Trenz-electronic
+- [Trenz-electronic S7 Mini](#trenz-electronic-s7-mini) — €36.41
+- [Trenz-electronic MAX1000](#trenz-electronic-max1000) — €40.46  
+- [GOWIN LittleBee](#gowin-littlebee) — €41.77  
+- [Trenz-electronic TE0722](#trenz-electronic-te0722) — €70.21
+
+#### VHDPlus
+- [VHDPlus MAX1000](#vhdplus-max1000) — €39.98  
+- [VHDPlus CYC1000](#vhdplus-cyc1000) — €41.82  
+- [VHDPlus CORE_MAX10](#vhdplus-core_max10) — €49.98
+
+> Note: Prices are taken verbatim from the document. Sorting within each vendor was done by numeric price value in increasing order but I did not convert between currencies (€, $, US$). For vendors with mixed currencies the ordering is by the numeric amount only; tell me if you'd like a single-currency conversion and resorting.
+
+
+## [**VHDPlus MAX1000**](https://vhdplus.com/docs/components/max1000/)
+(**€39.98**) inexpensive way to start with FPGAs (VHDPlus IDE)
 ![](https://shop.vhdplus.com/wp-content/uploads/2021/02/TEI0001-03-08-C8_2.jpg)
 ### Features:
 #### Hardware Overview
@@ -28,7 +90,8 @@
 - [VHDPlus](https://shop.vhdplus.com/product/max1000/)
 
 ---
-## [**CORE_MAX10-VHDPlus**](https://vhdplus.com/docs/components/vhdpcore_max10/)(€49.98): entry into FPGA programming for everybody who wants to use all the power of FPGAs
+## [**VHDPlus CORE_MAX10**](https://vhdplus.com/docs/components/vhdpcore_max10/)
+(**€49.98**) entry into FPGA programming for everybody who wants to use all the power of FPGAs
 ![](https://shop.vhdplus.com/wp-content/uploads/2020/05/Core.png)
 ### Features
 - CRUVI High Speed Connector
@@ -64,27 +127,25 @@
 ![](https://vhdplus.com/assets/images/LA-c58b31669438a0e69bf257834e8fc28a.png)
 
 - [Your first Robot](https://vhdplus.com/docs/community/motor/) - tutorial of making a robot that can drive a pre defined route and surround objects blocking the route. [github](https://github.com/VHDPlus/VHDPlus_Libraries_and_Examples/tree/master/Examples/Hardware/Output/Motor_Route)
-![](VHDPlus_Libraries_and_Examples/Examples/Hardware/Output/Motor_Route/demonstration.gif)
+![](demonstration.gif)
 
-- [Camera and Object Detection](https://vhdplus.com/docs/community/camera/) - tutorial on how to use [OnSemi Camera](https://vhdplus.com/docs/components/onsemi_camera) with HDMI,  how to apply filters to the received images and finally create an object detection. 
+- [Camera and Object Detection](https://vhdplus.com/docs/community/camera/) - tutorial on how to use [OnSemi Camera](https://vhdplus.com/docs/components/onsemi_camera) with HDMI,  how to apply filters to the received images and finally create an object detection. [github](https://github.com/leonbeier/VHDPlus_Libraries_and_Examples/tree/master/Examples/Hardware/Input/Object_Recogition)
 ![](https://vhdplus.com/assets/images/Camera-56a78e85dd2f9b8aaaba217d491196d3.webp)
 
 - [Simple Neural Net](https://vhdplus.com/docs/community/neural_net/)- tutorial on training a simple Neural Net with an FPGA, available on [github](https://github.com/leonbeier/NN_RGB_FPGA), the neural net is trained for colors. With the IAS Camera Exptension, the performance of this filter is tested.
 ![](https://vhdplus.com/assets/images/nn_t-2ec20389ce22c56a2f20f2a449da7620.png)
-- [Light Tracker](https://vhdplus.com/docs/community/light_tracker/) - learn how to use a camera and servos. The white parts of the camera image are detected and with two servos the camera is turned into the direction of the light.
+- [Light Tracker](https://vhdplus.com/docs/community/light_tracker/) - learn how to use a camera and servos. The white parts of the camera image are detected and with two servos the camera is turned into the direction of the light. [github](https://github.com/leonbeier/Light_Tracker)
 ![](https://vhdplus.com/assets/images/light_track_2-483977f5667bdba14ced885b056fc6a4.jpg)
 
-- [LED Matrix](https://vhdplus.com/docs/community/matrix/) - In this tutorial we want to make an LED matrix that can display a custom text or show an image. This can be extended into a clock, games or a spectrum analyzer.
-<video controls width="640" height="360">
-  <source src="matrix-demonstration.mp4" type="video/webm">
-  Your browser does not support the video tag. You can download the video here: [matrix-demonstration.webm](matrix-demonstration.webm)
-</video>
+- [LED Matrix](https://vhdplus.com/docs/community/matrix/) - In this tutorial we want to make an LED matrix that can display a custom text or show an image. This can be extended into a clock, games or a spectrum analyzer. [github](https://github.com/VHDPlus/VHDPlus_Libraries_and_Examples/tree/master/Examples/Hardware/Output/LED_Matrix)
+-  ![](matrix-demonstration.gif)
 
 ### Distributors
 
 ---
 
-## [**TinyFPGA**](https://tinyfpga.com/) (**€12.90**) A range of tiny, low-cost, well-supported, and open FPGA dev boards
+## [**Crowdsupply TinyFPGA**](https://tinyfpga.com/) 
+(**€12.90**) A range of tiny, low-cost, well-supported, and open FPGA dev boards
 ![](https://www.crowdsupply.com/img/bf66/73137f1b-5f2e-4247-9876-d5a7dcdabf66/tinyfpga-front-back-1-1_jpg_gallery-lg.jpg)
 ### Features
 - Height: 1.4 inches, width: 0.7 inches
@@ -130,7 +191,8 @@
 - [Mouser](https://www.mouser.fi/ProductDetail/Crowd-Supply/CS-TINYFPGA-04?qs=xZ%2FP%252Ba9zWqYTMXmT%2F9UHzg%3D%3D)
 - [Digikey, AX2](https://www.digikey.fi/en/products/detail/sparkfun-electronics/14828/9561755)
 ---
-## [**FireAnt**](https://www.crowdsupply.com/jungle-elec/fireant) (€32.68) A low-cost, thumb-sized, breadboard-friendly FPGA dev board for makers and hardware designers
+## [**Crowdsupply FireAnt**](https://www.crowdsupply.com/jungle-elec/fireant) 
+(**€32.68**) A low-cost, thumb-sized, breadboard-friendly FPGA dev board for makers and hardware designers
 ![](https://www.crowdsupply.com/img/4a9f/17c84a05-9973-4c69-abe4-ffa922d74a9f/fireant-boarddescription-withoutlegend_png_gallery-lg.jpg)
 1. Efinity Trion T8F81C2 FPGA
 2. FTDI FT232HQ UART/FIFO IC
@@ -171,9 +233,10 @@
 - [Sobel Filter Demo with FireAnt](https://www.crowdsupply.com/xips-technology/fireant/updates/awesome-sobel-filter-demo-with-fireant)
 
 ### Distributors
-[Mouser](https://www.mouser.fi/ProductDetail/Crowd-Supply/CS-FIREANT-01?qs=%252B6g0mu59x7Lg6xgf1btVXQ%3D%3D)
+- [Mouser](https://www.mouser.fi/ProductDetail/Crowd-Supply/CS-FIREANT-01?qs=%252B6g0mu59x7Lg6xgf1btVXQ%3D%3D)
 ---
-## [Seeed Studio Spartan Edge Accelerator (SEA) Board](https://www.seeedstudio.com/Spartan-Edge-Accelerator-Board-p-4261.html) (*$39.50/board, **10+ bulk $35.10/board**) a Xilinx Spartan FPGA development board in the Arduino UNO shield form factor.
+## [**Seeed-Studio Spartan Edge Accelerator (SEA) Board**](https://www.seeedstudio.com/Spartan-Edge-Accelerator-Board-p-4261.html) 
+(**$39.50/board**, **10+ bulk $35.10/board**) a Xilinx Spartan FPGA development board in the Arduino UNO shield form factor.
 ![](https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/s/p/spartan-edge-accelerater-board-v1.0-preview-2.jpg)
 
 ### Features
@@ -188,8 +251,6 @@
 - 10 extended I/O ports（Arduino shield mode）
 - Support for Arduino expansion interface
 
-
-
 #### Hardware Overview
 ![](https://github.com/SeeedDocument/Spartan-Edge-Accelerator-Board/raw/master/img/Spartan-Edge-Accelerater-Board-v1.0-pin.jpg)
 
@@ -199,12 +260,17 @@
 - [ESP32-datasheet.pdf](https://github.com/SeeedDocument/Spartan-Edge-Accelerator-Board/raw/master/res/ESP32-datasheet.pdf)
 - [Spartan Edge Accelerator Board Wiki](http://wiki.seeedstudio.com/Spartan-Edge-Accelerator-Board/)
 
+### Projects
+- [MIPI Imaging with Edge accelerator](https://www.hackster.io/adam-taylor/mipi-imaging-with-the-spartan-edge-accelerator-board-50cab1)
+- [Vivado Board file](https://www.hackster.io/shengr/xilinx-vivado-board-files-for-spartan-edge-accelerator-1-e99826)
+- [Accelerator Graphics with Spartan Edge Accelerator, WIP](https://hackaday.io/project/175763-spartan-edge-accelerator-graphics-esp32fpga): Xilinx Spartan 7 [hardware design](https://github.com/smartperson/spartan-edge-accelerator-graphical-system) and [ESP32 work](https://github.com/smartperson/spartan-edge-accelerator-esp32-qspi-to-fpga)  
 ### Distributors
 [Seeed Studio](https://www.seeedstudio.com/Spartan-Edge-Accelerator-Board-p-4261.html)
 [Digikey](https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/102030005/10492205)
 
 ---
-## [**GOWIN LittleBee**](https://www.trenz-electronic.de/en/FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM/TEC0117-01-A) (€41.77 / board - bulk 10) FPGA Module with GOWIN LittleBee and 8 MByte internal SDRAM
+## [**GOWIN LittleBee**](https://www.trenz-electronic.de/en/FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM/TEC0117-01-A)
+(**€41.77 / board - bulk 10**) FPGA Module with GOWIN LittleBee and 8 MByte internal SDRAM
 ![](https://www.trenz-electronic.de/thumbnail/20/b0/e2/1755614260/TEC0117-01_1_800x800.jpg?ts=1755614260)
 ### Features
 - GOWIN LittleBee 1NR9 FPGA
@@ -236,9 +302,9 @@
 
 ### Distributors
 - [Trens-electronics](https://www.trenz-electronic.de/en/FPGA-Module-with-GOWIN-LittleBee-and-8-MByte-internal-SDRAM/TEC0117-01-A)
-- 
 ---
-## [**S7 Mini**](https://www.trenz-electronic.de/en/S7-Mini-Fully-Open-Source-Module-with-AMD-Spartan-7S25-1C-64-Mbit-HyperRAM/TE0890-02-P1C-5-A): (**€36.41 / board** - bulk 10) Fully Open-Source Module with AMD Spartan™ 7S25-1C, 64 Mbit HyperRAM
+## [**Trenz-electronic S7 Mini**](https://www.trenz-electronic.de/en/S7-Mini-Fully-Open-Source-Module-with-AMD-Spartan-7S25-1C-64-Mbit-HyperRAM/TE0890-02-P1C-5-A): 
+(**€36.41 / board** - bulk 10) Fully Open-Source Module with AMD Spartan™ 7S25-1C, 64 Mbit HyperRAM
 ![](https://www.trenz-electronic.de/thumbnail/23/9c/db/1754558670/TE0890-02-P1C-5-A_1_800x800.webp?ts=1754558673)
 ### Features
 - AMD Spartan™ 7 XC7S25-1FTGB196C FPGA
@@ -274,7 +340,8 @@
 ### Distributors
 - [Trenz-electronics](https://www.trenz-electronic.de/en/S7-Mini-Fully-Open-Source-Module-with-AMD-Spartan-7S25-1C-64-Mbit-HyperRAM/TE0890-02-P1C-5-A)
 ---
-## [**TE0722**](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A): (**€70.21**) DIPFORTy1 "Soft Propeller" with AMD Zynq™ 7010-1C, 16 MByte Flash
+## [**Trenz-electronic TE0722**](https://www.trenz-electronic.de/en/DIPFORTy1-Soft-Propeller-with-AMD-Zynq-7010-1C-16-MByte-Flash/TE0722-04-41C-4-A)
+(**€70.21**) DIPFORTy1 "Soft Propeller" with AMD Zynq™ 7010-1C, 16 MByte Flash
 ![](https://www.trenz-electronic.de/thumbnail/60/87/b7/1754554221/TE0722-04-41I-4-A_0_800x800.webp?ts=1754554223)
 ### Features
   - AMD Zynq™ 7 XC7Z010-1CLG225C
@@ -310,11 +377,11 @@
   - **Notes**:
     - [DDR less ZYNQ Design](https://wiki.trenz-electronic.de/display/PD/DDR+less+ZYNQ+Design) - important notes for DDR less Zynq 
 
-### [XMOD (TE0790)](https://www.trenz-electronic.de/en/XMOD-FTDI-JTAG-Adapter-AMD-compatible/TE0790-03) TE0722 Programmer with special firmware 
+### [*XMOD (TE0790)*](https://www.trenz-electronic.de/en/XMOD-FTDI-JTAG-Adapter-AMD-compatible/TE0790-03) TE0722 Programmer with special firmware 
 ![](https://www.trenz-electronic.de/thumbnail/03/cf/fa/1745994962/TE0790-03_1_800x800.jpg?ts=1746175386)
 
 ### Related resource:
-- [**TE0790 - XMOD**](https://wiki.trenz-electronic.de/display/PD/TE0790+-+XMOD) - Wiki with TRM, reference projects, application notes and more
+- [**Trenz-electronic TE0790-XMOD**](https://wiki.trenz-electronic.de/display/PD/TE0790+-+XMOD) - Wiki with TRM, reference projects, application notes and more
   - [TE0790 TRM](https://wiki.trenz-electronic.de/display/PD/TE0790+TRM) - XMOD Technical Reference Manual
   - [TE0791 TRM](https://wiki.trenz-electronic.de/display/PD/TE0791+TRM) - Adapter to convert XMOD 2 x 6 Pin Header to different connector types
   - [TE0790 CPLD Firmware](https://wiki.trenz-electronic.de/display/PD/TE0790+CPLD+Firmware) - CPLD Firmware Description and Variants
@@ -333,7 +400,8 @@
 - [Digikey TE790](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TE0790-03L/11594256)
 
 ---
-## [**MAX1000-Trenz-electronic**](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A): (**US$46.74**, VAT and shipping included) IoT Maker Board, 8kLE, 8 MByte SDRAM, 8 MByte Flash, 6.15 x 2.5 cm
+## [**Trenz-electronic MAX1000**](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A)
+(**€40.46**, VAT and shipping included) IoT Maker Board, 8kLE, 8 MByte SDRAM, 8 MByte Flash, 6.15 x 2.5 cm
 ![](https://www.trenz-electronic.de/thumbnail/4b/9f/b4/1746171278/TEI0001-04-FBC88A_1_1920x1920.webp?ts=1746171282)
 
 ### Features
@@ -388,7 +456,8 @@
 - [Trenz-Electronics](https://www.trenz-electronic.de/en/MAX1000-IoT-Maker-Board-8kLE-8-MByte-SDRAM-8-MByte-Flash-6.15-x-2.5-cm/TEI0001-04-DBC87A)
 
 ---
-## [**iCEstick Evaluation Kit**](https://www.latticesemi.com/icestick): (**€130.73**) easy-to-use USB thumb-drive form-factor development board.
+## [**Lattice-Semi iCEstick Evaluation Kit**](https://www.latticesemi.com/icestick) 
+(**€130.73**) easy-to-use USB thumb-drive form-factor development board.
 ![](https://hackaday.com/wp-content/uploads/2016/11/ice.png)
 
 ### Features
@@ -423,7 +492,8 @@ Designers can use the included reference designs (IRDA UART TX and IRDA UART RX)
 
 ---
 
-## [**SNO ARDUINO**](https://www.digikey.fi/en/product-highlight/a/alorium/sno-fpga-system) (**€42**): Arduino-compatible FPGA development board
+## [**Aloriumtech SNO ARDUINO**](https://aloriumtech.com/sno/)
+(**€42**)Arduino-compatible FPGA development board
 ![](https://aloriumtech.com/wp-content/uploads/2017/01/Sno_Top_Final-min.jpg)
 
 ### Features
@@ -442,7 +512,8 @@ Designers can use the included reference designs (IRDA UART TX and IRDA UART RX)
 - Connectivity: solderable vias
 - Programming interface: FTDI
 
-### [**SNOMAKRR10**](https://aloriumtech.com/snomakr/) (€26.59) Arduino Breakout board for SNO
+### [**Aloriumtech SNOMAKRR10**](https://aloriumtech.com/snomakr/)
+(**€26.59**) Arduino Breakout board for SNO
 ![](https://aloriumtech.com/wp-content/uploads/2018/03/snomakr_sno-min.png)
 ### Resources:
 - [Github](https://github.com/AloriumTechnology)
@@ -452,7 +523,8 @@ Designers can use the included reference designs (IRDA UART TX and IRDA UART RX)
 - [Digikey SNO](https://www.digikey.fi/en/products/detail/alorium-technology-llc/SNOR21M16V3/9607424)
 - [Digikey SNOMAKKR10](https://www.digikey.fi/en/products/detail/alorium-technology-llc/SNOMAKRR10/9607425)
 
-## [**GateMateA1-EVB**](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/open-source-hardware) (**53€**): Low cost/performance ratio, addresses all application requirements of small to medium size FPGA projects
+## [**Olimex GateMateA1-EVB**](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/open-source-hardware) 
+(**53€**) Low cost/performance ratio, addresses all application requirements of small to medium size FPGA projects
 ![](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/images/GateMateA1-EVB.jpg)
 
 ### Features
@@ -492,7 +564,8 @@ Designers can use the included reference designs (IRDA UART TX and IRDA UART RX)
 - [Digikey](https://www.digikey.fi/en/products/detail/olimex-ltd/gatematea1-evb/22258042)
 
 ---
-## [**SLG7EVBFORGE**](https://www.renesas.com/en/design-resources/boards-kits/slg7evbforge) (**€81**): compact, easy-to-use, USB-powered hardware tool that provides SLG47910V 1K lookup table (LUT) ForgeFPGA IC hardware support for design emulation, programming, and real-time testing (with Verilog)
+## [**Renesas SLG7EVBFORGE**](https://www.renesas.com/en/design-resources/boards-kits/slg7evbforge) 
+(**€81**): compact, easy-to-use, USB-powered hardware tool that provides SLG47910V 1K lookup table (LUT) ForgeFPGA IC hardware support for design emulation, programming, and real-time testing (with Verilog)
 ![](https://www.renesas.com/sites/default/files/1890-SLG7EVEBForge-ANGLE.jpg)
 
 ### Features
@@ -514,7 +587,8 @@ Designers can use the included reference designs (IRDA UART TX and IRDA UART RX)
 - [Mouser](https://www.mouser.fi/ProductDetail/Renesas-Dialog/SLG7EVBFORGE?qs=2wMNvWM5ZX5HC1b2oIQaEg%3D%3D)
 
 ---
-## [**SIPEEED TANG PRIMER 25K**](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html)(**37€**): 
+## [**SIPEEED TANG PRIMER 25K**](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html)
+(**37€**) The ultra-small core board size can be applied in any volume-restricted scenarios.The simple base board can connect a USB joystick, plug in a 40Pin SDRAM module, and three PMOD interfaces can connect to an HDMI display, PS2 joystick to form a typical RetroGame console configuration. It can also be paired with the series of PMOD modules produced by Sipeed, for use in FPGA university teaching.
 
 ![](https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/2/4/24511-Tang-Primer-25K-Feature.jpg)
 ### Features:
@@ -544,7 +618,8 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 - [Aliexpress](https://www.aliexpress.com/item/1005007252284709.html)
 
 ---
-## [**iCE40HX1K-EVB**](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/open-source-hardware) (**15€**): low-cost, open-source FPGA development board (*designed with Verilog)
+## [**Olimex iCE40HX1K-EVB**](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/open-source-hardware)
+(**15€**): low-cost, open-source FPGA development board (*designed with Verilog)
 
 ![](https://www.olimex.com/wiki/images/e/ee/ICE40HX1K-EVB.jpg)
 
@@ -584,7 +659,8 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 ---
 
-## \*\*Gowin \*\*[**RUNBER FPGA**](https://www.seeedstudio.com/Gowin-RUNBER-Development-Board-p-4779.html "‌") (**25€**): Development board adopts GOWIN GW1N-UV4LQ144 solution.
+## [**Seeed-Studio RUNBER FPGA**](https://www.seeedstudio.com/Gowin-RUNBER-Development-Board-p-4779.html "‌") 
+(**25€**): Development board adopts GOWIN GW1N-UV4LQ144 solution.
 
 ### Features:
 
@@ -617,7 +693,8 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 - [Digikey](https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/114992325/13635854 "smartCard-inline")
 ---
-## [CYC1000-VHDPlus](https://vhdplus.com/docs/components/cyc1000/) (**€41.82**): FPGA Development Board is for everybody who needs more logic elements than you get with the MAX1000.
+## [VHDPlus CYC1000](https://vhdplus.com/docs/components/cyc1000/) 
+(**€41.82**): FPGA Development Board is for everybody who needs more logic elements than you get with the MAX1000.
 ![](https://vhdplus.com/assets/images/TEI0003-d9195bcec9449e4eead67d87a13e59d7.png)
 ### Features:
 #### Board Overview
@@ -644,7 +721,8 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 [Digikey](https://www.digikey.fi/en/products/detail/trenz-electronic-gmbh/TEI0003-03-QFCR4A/22081856)
 
 ---
-## [**EK-10M08E144**](https://www.altera.com/products/devkit/a1jui0000049uttmam/max-10-fpga-10m08-evaluation-kit-power-soln-1) (**€54.04**) Altera MAX 10 Evaluation kit: compact, entry-level platform designed to evaluate the capabilities of the MAX 10 FPGA family
+## [**Altera EK-10M08E144**](https://www.altera.com/products/devkit/a1jui0000049uttmam/max-10-fpga-10m08-evaluation-kit-power-soln-1) 
+(**€54.04**) Altera MAX 10 Evaluation kit: compact, entry-level platform designed to evaluate the capabilities of the MAX 10 FPGA family
 ![](https://www.altera.com/sites/default/files/offering-assets/image_68e7d5cdbb382_max-10-eval-board.jpg)
 
 ### Features
@@ -669,7 +747,8 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 ---
 
-## [**Basys 3**](https://digilent.com/shop/basys-3-amd-artix-7-fpga-trainer-board-recommended-for-introductory-users/ "‌") (**$165**): best in-the-market, entry-level FPGA with a large number of designs to be completed without the need for any additional hardware.
+## [**Digilent Basys 3**](https://digilent.com/shop/basys-3-amd-artix-7-fpga-trainer-board-recommended-for-introductory-users/ "‌")
+(**$165**): best in-the-market, entry-level FPGA with a large number of designs to be completed without the need for any additional hardware.
 
 ![](https://cdn11.bigcommerce.com/s-7gavg/images/stencil/1280x1280/products/106/6259/Basys3-Rev.C-top-1000__75348.1730220608.png)
 
@@ -710,7 +789,8 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 ---
 
-## [**Cmod A7 35T**](https://digilent.com/shop/cmod-a7-35t-breadboardable-artix-7-fpga-module/)  (**$99**): offers quick and flexible integration of FPGAs into embedded projects with breadboardable, solderless designs
+## [**Digilent Cmod A7 35T**](https://digilent.com/shop/cmod-a7-35t-breadboardable-artix-7-fpga-module/)
+(**$99**) offers quick and flexible integration of FPGAs into embedded projects with breadboardable, solderless designs
 
 ![cmod-a7-0.png](https://cdn11.bigcommerce.com/s-7gavg/images/stencil/1280x1280/products/516/4032/Cmod_A7-top-600__97587.1670978506.png)
 
@@ -743,11 +823,13 @@ Hackster: https://www.hackster.io/news/sipeed-unveils-the-ultra-compact-tang-pri
 
 ### **Distributors**:
 
-[https://www.digikey.fi/en/products/detail/digilent-inc/410-328-35/6133793](https://www.digikey.fi/en/products/detail/digilent-inc/410-328-35/6133793 "smartCard-inline")[https://fi.farnell.com/digilent/410-328-35/development-kit-artix-7-fpga/dp/2614574](https://fi.farnell.com/digilent/410-328-35/development-kit-artix-7-fpga/dp/2614574 "smartCard-inline")
+[Digikey](https://www.digikey.fi/en/products/detail/digilent-inc/410-328-35/6133793)
+[Farnell](https://fi.farnell.com/digilent/410-328-35/development-kit-artix-7-fpga/dp/2614574 "smartCard-inline")
 
 ---
 
-## [**PYNQ-Z2**](https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.html "‌") , a more capable development board, allows development with Python.
+## [**TUL PYNQ-Z2**](https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.html) 
+(**€156.76**): a more capable development board, allows development with Python.
 
 “Designers can exploit the benefits of programmable logic and micro-processors to build more capable and exciting electronic systems”
 
@@ -815,11 +897,12 @@ Hackster projects: [https://www.hackster.io/search?q=pynq%20z2&i=projects](https
 
 ### Distributors:
 
-Farnell [https://uk.farnell.com/search?st=tul-corporation](https://uk.farnell.com/search?st=tul-corporation "‌")
+[Farnell](https://fi.farnell.com/en-FI/tul-corporation/1m1-m000127dvb/basic-kit-32bit-arm-cortex-a9/dp/2913032)
 
 ---
 
-## [**iCEBreaker**](https://1bitsquared.de/products/icebreaker "‌")\*\* (€79.95)\*\*: an open-source, educational FPGA development board
+## [**1bitsquared iCEBreaker**](https://1bitsquared.de/products/icebreaker)
+(**€79.95**): an open-source, educational FPGA development board
 
 ![](https://1bitsquared.de/cdn/shop/files/icebreaker-v1_1a-iso-1_large.jpg?v=1736439243)
 
@@ -889,6 +972,15 @@ Farnell [https://uk.farnell.com/search?st=tul-corporation](https://uk.farnell.co
 - Unpopulated parts shipped with the board
   - 3x Host PMOD (2x for dual PMOD port, 1x for snap-off section)
   - 1x Device PMOD (for other side of snap-off section)
+#### iCEBreaker Block Diagram
+ ![](https://docs.icebreaker-fpga.org/assets/img/icebreaker/icebreaker-v1_0b-legend.jpg)
+
+#### Pinouts
+ ![](https://docs.icebreaker-fpga.org/assets/img/icebreaker/icebreaker-v1_0b-legend-jumpers.jpg)
+
+### Resource
+ - [iCE40 UltraPlus 5K](https://latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/iCE/iCE40-UltraPlus-Family-Data-Sheet.ashx)
+ - [iCEBreaker workshop Github](https://github.com/icebreaker-fpga/icebreaker-workshop)
 
 ### Projects ([github](https://github.com/icebreaker-fpga/icebreaker "‌"))
 
@@ -898,11 +990,10 @@ Farnell [https://uk.farnell.com/search?st=tul-corporation](https://uk.farnell.co
 - [HyperRAM PMOD](https://1bitsquared.de/products/pmod-hyperram "‌")
 - [RGB LED Panel Matrix Driver Pmod](https://1bitsquared.de/products/pmod-led-panel-driver "‌")[Gamepad and Audio Pmod](https://1bitsquared.de/products/pmod-gamepad-and-audio "‌")
 
-‌
-
 ---
 
-## [**Boolean**](https://www.realdigital.org/hardware/boolean "‌") (without BLE, **$84,** with BLE: **$97**): an educational FPGA platform explicitly designed for electrical and computer engineering students.
+## [**RealDigital Boolean**](https://www.realdigital.org/hardware/boolean "‌") 
+(without BLE, **$84,** with BLE: **$97**): an educational FPGA platform explicitly designed for electrical and computer engineering students.
 
 ![1bfa8a56e075cdc92c0b03204c6c5618.png](https://www.realdigital.org/img/1bfa8a56e075cdc92c0b03204c6c5618.png)
 
